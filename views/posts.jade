@@ -3,11 +3,20 @@ html(lang="jp")
   head
     meta(charset="UTF-8")
     title 秘密の匿名掲示板
+    style.
+      body{background-color:#00aaff;}
+      h1{color:white;,}
+      h2{color:#fafafa;}
   body
-    h1 秘密の匿名掲示板
-    h2 新規投稿
-    form(method="post", action="/posts")
-      div
-        textarea(name="content", cols=40, rows=4)
-      div
-        button(type="submit") 投稿
+  h1 ◆秘密の匿名掲示板◆
+  MARQUEE(height="500",direction="up",behavior="alternate",scrollamount="15")
+    MARQUEE(behavior="alternate",scrollamount="15")
+      h2 新規投稿
+      form(method="post", action="/posts")
+        div
+          textarea(name="content", cols=40, rows=4)
+        div
+          button(type="submit") 投稿
+          button(type="reset") 取消
+          button
+            a(href='http://www.nicovideo.jp') ニコニコ動画
