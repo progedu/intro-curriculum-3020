@@ -10,5 +10,16 @@
   "license": "ISC",
   "dependencies": {
     "jade": "^1.11.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santafe1006/intro-curriculum-3020.git"
+  },
+  "bugs": {
+    "url": "https://github.com/santafe1006/intro-curriculum-3020/issues"
+  },
+  "homepage": "https://github.com/santafe1006/intro-curriculum-3020#readme"
 }
