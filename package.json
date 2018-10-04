@@ -9,6 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
+    "jade": "^1.11.0",
+=======
+>>>>>>> 816b65fafe7fb29dda33bdc5b2068470673af61d
     "pug": "^2.0.0-rc.4"
   }
 }
