@@ -6,9 +6,10 @@
   "scripts": {
     "test": "node test.js"
   },
-  "author": "",
+  "author": "shogo-nakashima <shogo.nakashima.1109@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "pug": "^2.0.0-rc.4"
-  }
+  },
+  "repository": "git@github.com:nkc333/intro-curriculum-3020"
 }
