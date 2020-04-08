@@ -1,5 +1,6 @@
 'use strict';
 const http = require('http');
+const contents = [];
 const router = require('./lib/router');
 
 const server = http.createServer((req, res) => {
