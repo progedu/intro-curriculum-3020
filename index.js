@@ -2,6 +2,7 @@
 const http = require('http');
 const router = require('./lib/router');
 
+
 const server = http.createServer((req, res) => {
   router.route(req, res);
 }).on('error', (e) => {
@@ -10,7 +11,7 @@ const server = http.createServer((req, res) => {
   console.error('Client Error', e);
 });
 
-const port = 8000;
+const port = 8001;
 server.listen(port, () => {
   console.info('Listening on ' + port);
 });
