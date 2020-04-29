@@ -11,3 +11,8 @@ html(lang="ja")
         textarea(name="content" cols=40 rows=4)
       div
         button(type="submit") 投稿
+
+    each post in contents
+      h6 #{post.time}
+      p #{post.content}
+      hr
