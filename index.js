@@ -1,4 +1,5 @@
 'use strict';
+const contents = [];
 const http = require('http');
 const router = require('./lib/router');
 
