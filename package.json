@@ -6,9 +6,10 @@
   "scripts": {
     "test": "node test.js"
   },
-  "author": "",
+  "author": "henohenon <takeru20n1100821@nnn.ed.jp>",
   "license": "ISC",
   "dependencies": {
-    "pug": "^2.0.0-rc.4"
-  }
+    "pug": "2.0.0-rc.4"
+  },
+  "repository": "git@github.com:henohenon/intro-curriculum-3020.git"
 }
