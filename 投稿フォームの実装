@@ -1,0 +1,8 @@
+'use strict';
+const pug = require('pug');
+const contents = [];
+
+function handle(req, res) {
+  switch (req.method) {
+  
+  
